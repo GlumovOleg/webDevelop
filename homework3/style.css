@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    width: 1920px;
+    height: 700px;
+    flex-shrink: 0;
+}
+
+.header {
+    width: 1170px;
+    height: 40px;
+    flex-shrink: 0;
+    /* gap: 500px; */
+}
+
+.top_logo {
+    width: 35px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 14px;
+    padding-top: 40px;
+    padding-left: 375px;
+}
+
+
+h2 {
+    width: 88px;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 5px;
+}
+
+span {
+    color: #F25822;
+}
+
+
+.header_lines {
+    width: 533px;
+    height: 17px;
+    display: inline-flex;
+    flex-direction: row;
+    /* flex-wrap: nowrap; */
+    /* align-items: center; */
+    gap: 40px;
+    padding-top: 11px;
+    padding-right: 375px;
+    padding-left: 500px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about {
+    padding-top: 164px;
+    padding-left: 373px;
+    /* padding: 50px; */
+    display: flex;
+    flex-shrink: 0;
+}
+
+.about_h1 {
+    width: 522px;
+    height: 222px;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about_text {
+    width: 466px;
+    height: 48px;
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.buttons {
+    display: inline-flex;
+    text-align: center;
+    padding-top: 37px;
+    gap: 40px;
+}
+
+button {
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+}
+
+p {
+    display: inline-flex;
+    align-items: center;
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about_image {
+    width: 544.814px;
+    height: 374.843px;
+    flex-shrink: 0;
+}
+
+.footer {
+    display: inline-block;
+    width: 1920px;
+    height: 243px;
+    flex-shrink: 0;
+    padding-top: 97px;
+    padding-bottom: 96px;
+    padding-left: 345px;
+    gap: 48px;
+}
+
+.logo{
+    margin-right: 48px;
+}
