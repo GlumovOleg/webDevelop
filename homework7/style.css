@@ -39,9 +39,9 @@
 }
 
 .top {
-    display: block;
+    /* display: block;
     height: 100%;
-    width: 100%;
+    width: 100%; */
 }
 
 .about {
@@ -91,24 +91,47 @@ span {
     gap: 30px;
     grid-template-columns: repeat(3, 1fr);
     padding-top: 64px;
-    /* padding-bottom: 96px; */
     padding-left: 230px;
     padding-right: 230px;
 
 }
 
 .top_sale {
+    position: relative;
     width: 360px;
     height: 260px;
     flex-shrink: 0;
-    position: relative;
 }
 
-.sale_img {
-    width: 360px;
-    height: 420px;
+.sale_block {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
     flex-shrink: 0;
+}
 
+.sale_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+}
+
+info {
+    color: #F16D7F;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .top_sale_big {
@@ -170,7 +193,7 @@ button {
     line-height: normal;
 }
 
-.button{
+.button {
     display: flex;
     justify-content: center;
     align-items: center;
