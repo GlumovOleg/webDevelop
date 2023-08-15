@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 1600px;
+    height: 75px;
+    flex-shrink: 0;
+    flex-shrink: 0;
+    background-color: #222222;
+
+}
+
+.header_logo {
+    display: flex;
+    align-items: center;
+    width: 44px;
+    height: 38px;
+    flex-shrink: 0;
+    padding-top: 18px;
+    padding-left: 231px;
+    gap: 41px;
+}
+
+.header_search {
+    width: 26.002px;
+    height: 26.792px;
+    flex-shrink: 0;
+}
+
+.header_menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 240px;
+}
+
+.about {
+    display: flex;
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
+
+}
+
+.top_img {
+    width: 800.58px;
+    height: 764px;
+    flex-shrink: 0;
+}
+
+h1 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+h3 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+span {
+    color: #F16D7F;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.top_content_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 92px;
+}
+
+.top_menu {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 64px;
+    padding-left: 230px;
+    padding-right: 230px;
+
+}
+
+.top_sale {
+    position: relative;
+    width: 360px;
+    height: 260px;
+    flex-shrink: 0;
+}
+
+.sale_block {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+}
+
+.sale_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+}
+
+info {
+    color: #F16D7F;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.top_sale_big {
+    width: 1140px;
+    height: 180px;
+    flex-shrink: 0;
+    padding-top: 30px;
+    padding-left: 230px;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.top_content_text {
+    display: flex;
+    padding-top: 24px;
+    margin: 12px;
+    gap: 16px;
+    flex-direction: column;
+}
+
+.top_content_about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 96px;
+    padding-bottom: 48px;
+}
+
+.top_content {
+    display: grid;
+    gap: 30px;
+    width: 360px;
+    height: 420px;
+    flex-shrink: 0;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 230px;
+}
+
+price {
+    width: 52.457px;
+    color: #F16D7F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 212px;
+    height: 48px;
+    flex-shrink: 0;
+    color: #F26376;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-top: 48px;
+    padding-bottom: 60px;
+}
+
+@media(max-width: 800px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    .top {
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+
+    .header_logo {
+        display: flex;
+        align-items: center;
+        width: 44px;
+        height: 38px;
+        flex-shrink: 0;
+        gap: 41px;
+    }
+
+    .top_content {
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 360px);
+    }
+
+    .top_menu {
+        display: grid;
+        height: auto;
+        gap: 30px;
+        grid-template-columns: repeat(3, 1fr);
+        padding-top: 64px;
+        /* padding-left: 230px;
+        padding-right: 230px; */
+
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        padding-top: 48px;
+        padding-bottom: 60px;
+    }
+}
